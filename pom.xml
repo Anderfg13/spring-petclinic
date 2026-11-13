@@ -37,8 +37,8 @@
     <spring-format.version>0.0.47</spring-format.version>
 
     <!-- SonarQube Cloud -->
-    <sonar.organization>TU_ORGANIZACION_SONAR</sonar.organization>
-    <sonar.projectKey>TU_PROJECT_KEY</sonar.projectKey>
+    <sonar.organization>anderfg13</sonar.organization>
+    <sonar.projectKey>anderfg13_spring-petclinic</sonar.projectKey>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
