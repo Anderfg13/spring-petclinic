@@ -35,6 +35,11 @@
     <maven-checkstyle.version>3.6.0</maven-checkstyle.version>
     <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
     <spring-format.version>0.0.47</spring-format.version>
+
+    <!-- SonarQube Cloud -->
+    <sonar.organization>TU_ORGANIZACION_SONAR</sonar.organization>
+    <sonar.projectKey>TU_PROJECT_KEY</sonar.projectKey>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <dependencies>
