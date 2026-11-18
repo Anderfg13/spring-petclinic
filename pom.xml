@@ -317,7 +317,7 @@
         <version>13.0.0</version>
         <configuration>
           <!-- Nombre de la variable de entorno con la key (no la key) -->
-          <nvdApiKeyEnvironmentVariable>049AB9B3-68B9-4E33-AB36-F9288F762FC7</nvdApiKeyEnvironmentVariable>
+          <nvdApiKeyEnvironmentVariable>NVD_API_KEY</nvdApiKeyEnvironmentVariable>
           <!-- Base de datos fuera de ~/.m2 para cachearla por separado -->
           <dataDirectory>${user.home}/.dependency-check-data</dataDirectory>
           <formats>
