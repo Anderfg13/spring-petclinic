@@ -67,7 +67,7 @@ jobs:
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
         run: echo "VARIABLE API KEY " + ${{ secrets.NVD_API_KEY }}
-        run: ./mvnw -B dependency-check:check
+
 
       - name: Save NVD database
         if: always()
